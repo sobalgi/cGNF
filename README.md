@@ -26,7 +26,7 @@ Refer cGNF_Wodtke_simulated_experiments_s2.ipynb jupyter notebook for further de
 ## Setting 3 : Data heterogeneity and both treatment as well as outcome model misspecification
 Refer cGNF_Wodtke_simulated_experiments_s3.ipynb jupyter notebook for further details on simulated experiments with both treatment and outcome model misspecification and data heterogeneity setting !!
 
-
+<!-- 
 # $\rho$-GNF : $\rho$-Graphical Normalizing Flows for sensitivity analysis using Gaussian Copula to model the degree of the non-causal association due to the unobserved confounding. [[arxiv]](https://arxiv.org/abs/2209.07111) [[github]](https://github.com/sobalgi/rhoGNF)
 
 The extended version of c-GNF for the purpose of sensitivity analysis under unobserved confounders using a novel copula-based idea can be found as $\rho$-GNF, where $\rho$ represents the sensitivity parameter of the Gaussian copula that represents the non-causal associaition/dependence between the Gaussian noise of the $\rho$-GNF, $Z_A$ and $Z_Y$. Since the transformations of $Z_A \rightarrow A$ and $Z_Y \rightarrow Y$ are monotonic by design, the non-causal association due to unobserved confounding modeled by the copula represents the non-causal association between $A$ and $Y$ thanks to scale-invariance property of $\rho$ to monotonically increasing transformations.
@@ -34,4 +34,4 @@ The extended version of c-GNF for the purpose of sensitivity analysis under unob
 The implementation of rho-GNF is done by extending the offical codes for the paper: ``Graphical Normalizing Flows,  Antoine Wehenkel and Gilles Louppe.  (May 2020)`` [[arxiv]](https://arxiv.org/abs/2006.02548) [[github]](https://github.com/AWehenkel/Graphical-Normalizing-Flows) and ``Balgi, S., Peña, J. M., & Daoud, A. (2022). Personalized Public Policy Analysis in Social Sciences Using Causal-Graphical Normalizing Flows. Proceedings of the AAAI Conference on Artificial Intelligence, 36(11), 11810-11818.`` [[paper]](https://doi.org/10.1609/aaai.v36i11.21437) [[github]](https://github.com/sobalgi/cGNF)
 
 This implemnetation is an adaptation of the c-GNF (Causal-Graphical Normalizing Flows) for causal effect identification and estimation for sensitivity analysis to relax the unconfoundedness assumptions. 
-
+-->
